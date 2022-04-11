@@ -10,7 +10,7 @@ function Home() {
           placeholder="Take a Note..."
         />
         <i className="fa-regular fa-square-check text-xl py-1 px-2 rounded-full hover:bg-gray-100 cursor-pointer text-gray-500"></i>
-        <i class="fa-regular fa-image text-xl py-1 px-2 rounded-full hover:bg-gray-100 cursor-pointer text-gray-500"></i>
+        <i className="fa-regular fa-image text-xl py-1 px-2 rounded-full hover:bg-gray-100 cursor-pointer text-gray-500"></i>
       </div>
     </div>
   );

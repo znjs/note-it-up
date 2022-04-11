@@ -1,13 +1,16 @@
+import { NavLink } from "react-router-dom";
 import "./sidenav.css";
 
 function SideNav() {
   return (
     <div className=" sticky top-[66px] left-0 w-64 h-sidenav">
       <div className="flex flex-col">
-        <div className="flex py-2 items-center  w-full hover:bg-gray-100 p-4 rounded-r-full bg-yellow-400 select-none cursor-pointer">
-          <i className="fa-solid fa-house px-4 text-lg"></i>
-          <p>Home</p>
-        </div>
+        <NavLink to="/home">
+          <div className="flex py-2 items-center  w-full hover:bg-gray-100 p-4 rounded-r-full bg-yellow-400 select-none cursor-pointer">
+            <i className="fa-solid fa-house px-4 text-lg"></i>
+            <p>Home</p>
+          </div>
+        </NavLink>
         <div className="flex py-2 items-center  w-full hover:bg-gray-100 p-4 rounded-r-full select-none cursor-pointer">
           <i className="fa-solid fa-tag px-4 text-lg"></i>
           <p>Label</p>

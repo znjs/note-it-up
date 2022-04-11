@@ -14,7 +14,7 @@ function Navbar() {
           type="text"
           className="bg-gray-100 mx-2 px-2 py-3 outline-none grow"
         />
-        <i class="rounded-full py-2 px-4 hover:bg-gray-200 text-xl  fa-solid fa-xmark"></i>
+        <i className="rounded-full py-2 px-4 hover:bg-gray-200 text-xl  fa-solid fa-xmark"></i>
       </div>
       <div className="flex ml-auto">
         <i className="rounded-full py-2 px-3 hover:bg-gray-100 text-xl fa-solid fa-magnifying-glass tablet:hidden"></i>
